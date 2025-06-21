@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成都华商理工职业学校</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            padding: 6px 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #000;
+            font-size: 16px;
+        }
+        td {
+            cursor: pointer;
+        }
+        caption {
+            font-weight: bold;
+            margin: 10px 0;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 80px;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            //获取所有的td元素
+            var tds = document.querySelectorAll('td');
+            //遍历所有的td元素
+            for(var i = 0; i < tds.length; i++) {
+                //当鼠标进入到所有的td元素时，设置背景色为浅灰色
+                tds[i].onmouseover = function() {
+                    this.style.backgroundColor = "hotpink";
+                };
+                //当鼠标离开所有的td元素时，设置背景色为透明
+                tds[i].onmouseout = function() {
+                    this.style.backgroundColor = "";
+                };
+               //判断获取到的这个td的索引是双数
+                if(i % 2 === 0) {
+                     //如果是双数索引，则设置背景色为浅灰色
+                     tds[i].style.textAlign = "center";
+                }
+            }
+        };
+    </script>
+</head>
+<body>
+    <table border="1" cellpadding="0" cellspacing="0">
+        <caption>保护学校及保护区域</caption>
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>学校</th>
+                <th>序号</th>
+                <th>学校</th>
+                <th>序号</th>
+                <th>学校</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>城厢学校</td>
+                <td>2</td>
+                <td>甫家学校</td>
+                <td>3</td>
+                <td>惠民学校</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>利民学校（立信校区）</td>
+                <td>5</td>
+                <td>木兰中学</td>
+                <td>6</td>
+                <td>沙湾学校</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>石板滩中学</td>
+                <td>8</td>
+                <td>大湾中学（至佳校区）</td>
+                <td>9</td>
+                <td>渭水学校</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>新徽（新辉）</td>
+                <td>11</td>
+                <td>高新实验</td>
+                <td>12</td>
+                <td>中和中学</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>草池中学</td>
+                <td>14</td>
+                <td>三岔中学</td>
+                <td>15</td>
+                <td>东湖中学</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>斑竹园中学</td>
+                <td>17</td>
+                <td>塔子坝中学</td>
+                <td>18</td>
+                <td>金堂官仓白马</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>三星中学</td>
+                <td>20</td>
+                <td>扬帆学校</td>
+                <td>21</td>
+                <td>益民学校</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>郫都一中</td>
+                <td>23</td>
+                <td>郫县二中</td>
+                <td>24</td>
+                <td>郫都区岷阳学校</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>郫都区红光中学</td>
+                <td>26</td>
+                <td>郫都区团结中学</td>
+                <td>27</td>
+                <td>郫都区白马实验学校</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>郫都区三道堰中学</td>
+                <td>29</td>
+                <td>郫都区安德中学</td>
+                <td>30</td>
+                <td>成飞中学</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>光明学校</td>
+                <td>32</td>
+                <td>57实验学校</td>
+                <td>33</td>
+                <td>泰兴中学</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>郫都区新民场学校</td>
+                <td>35</td>
+                <td>花园中学</td>
+                <td>36</td>
+                <td>龙虎中学</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>郫都区安靖学校</td>
+                <td>38</td>
+                <td>启明学校</td>
+                <td>39</td>
+                <td>成都16中</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>周家学校</td>
+                <td>41</td>
+                <td>金堂实验</td>
+                <td>42</td>
+                <td>犀浦春蕾学校</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>新都大丰中学</td>
+                <td>44</td>
+                <td>金堂竹篙中学</td>
+                <td>45</td>
+                <td>金堂高板中学</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>成都十八中学</td>
+                <td>47</td>
+                <td>金牛中学</td>
+                <td>48</td>
+                <td>天府四中</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>46中学</td>
+                <td>50</td>
+                <td>天元中学</td>
+                <td>51</td>
+                <td>武侯实验</td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td>大面中学</td>
+                <td>53</td>
+                <td>双流九江新兴</td>
+                <td>54</td>
+                <td>七中银杏</td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>四十三中学</td>
+                <td>56</td>
+                <td>武侯高级中学</td>
+                <td>57</td>
+                <td>西河中学</td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td>熊猫路中学</td>
+                <td>59</td>
+                <td>成都八中</td>
+                <td>60</td>
+                <td>川大附中西区、新城、悦湖校区</td>
+            </tr>
+            <tr>
+                <td>61</td>
+                <td>红祥文武学校</td>
+                <td>62</td>
+                <td>升庵中学</td>
+                <td>63</td>
+                <td>繁江中学</td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>彭州一中实验学校</td>
+                <td>65</td>
+                <td>彭乡市实验中学</td>
+                <td>66</td>
+                <td>石室白马中学（南北校区）</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>致和中学</td>
+                <td>68</td>
+                <td>北君平中学</td>
+                <td>69</td>
+                <td>九尺中学</td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>丽春中学</td>
+                <td>71</td>
+                <td>都江堰外国语实验中学(树德中学)</td>
+                <td>72</td>
+                <td>锦堰中学</td>
+            </tr>
+            <tr>
+                <td>73</td>
+                <td>七一青城山</td>
+                <td>74</td>
+                <td>胥家中学</td>
+                <td>75</td>
+                <td>中兴中学</td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>李冰中学</td>
+                <td>77</td>
+                <td>聚源中学</td>
+                <td>78</td>
+                <td>崇州实验中学</td>
+            </tr>
+            <tr>
+                <td>79</td>
+                <td>崇庆附属中学</td>
+                <td>80</td>
+                <td>元通中学</td>
+                <td>81</td>
+                <td>羊马中学</td>
+            </tr>
+            <tr>
+                <td>82</td>
+                <td>怀远树德中学</td>
+                <td>83</td>
+                <td>平昌县实验中学</td>
+                <td>84</td>
+                <td>资阳市雁江区一中</td>
+            </tr>
+            <tr>
+                <td>85</td>
+                <td>资阳市雁江区南津中学</td>
+                <td>86</td>
+                <td>射洪沱牌实验学校</td>
+                <td>87</td>
+                <td>射洪柳树中学</td>
+            </tr>
+            <tr>
+                <td>88</td>
+                <td>射洪金华中学</td>
+                <td>89</td>
+                <td>中江清河中学</td>
+                <td>90</td>
+                <td>遂宁一中</td>
+            </tr>
+            <tr>
+                <td>91</td>
+                <td>雁江二中</td>
+                <td>92</td>
+                <td>遂宁二中</td>
+                <td>93</td>
+                <td>成师德高</td>
+            </tr>
+            <tr>
+                <td>94</td>
+                <td>富顺一中</td>
+                <td>95</td>
+                <td>德阳中学初中部</td>
+                <td>96</td>
+                <td>大邑县全域</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+
+
+</body>
+</html>
